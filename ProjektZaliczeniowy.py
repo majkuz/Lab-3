@@ -45,8 +45,5 @@ if __name__ == "__main__":
 #Projekt Stworzyli:
 # Kinga Rolczak
 # Jakub Guguł
-<<<<<<< Updated upstream
 # Kamil Kałamarz
-=======
->>>>>>> Stashed changes
 # Maja Kuźniak
