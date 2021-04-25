@@ -21,3 +21,9 @@ if __name__ == "__main__":
 
 
     Oblicz_pole_figur(nazwa_ksztaltu)
+	
+	
+	
+#Projekt Stworzyli:
+# Kinga Rolczak
+# 
