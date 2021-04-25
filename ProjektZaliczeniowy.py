@@ -15,10 +15,16 @@ def Oblicz_pole_figur(nazwa): \
         h = int(input("Podaj wysokosc trojkata: "))
         b = int(input("Podaj dlugosc podstawy trojkata: "))
 
-
+    
         pole_trojkata = 0.5 * b * h
         print(f"Pole trojkata wynosi {pole_trojkata}.")
+    
+    elif nazwa == "kwadrat":
+        s = int(input("Podaj dlugosc boku: "))
 
+
+        pole_kwadratu = s * s
+        print(f"Pole kwadratu wynosi {pole_kwadratu}. ")
 
     else:
         print("NIE MA TAKIEGO KSZTALTU!")
@@ -35,3 +41,4 @@ if __name__ == "__main__":
 #Projekt Stworzyli:
 # Kinga Rolczak
 # Jakub Guguł
+# Kamil Kałamarz
