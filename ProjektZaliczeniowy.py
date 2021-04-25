@@ -30,7 +30,6 @@ def Oblicz_pole_figur(nazwa): \
         r = int(input("Podaj promień koła: "))
         pi = 3.14
 
-
         kolo_pole = pi * r * r
         print(f"pole koła wynosi{kolo_pole}.")
 
