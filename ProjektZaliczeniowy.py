@@ -11,6 +11,14 @@ def Oblicz_pole_figur(nazwa): \
         pole_prostokata = a * b
         print(f"Pole prostokata wynosi {pole_prostokata}.")
 
+    elif nazwa == "trojkat":
+        h = int(input("Podaj wysokosc trojkata: "))
+        b = int(input("Podaj dlugosc podstawy trojkata: "))
+
+
+        pole_trojkata = 0.5 * b * h
+        print(f"Pole trojkata wynosi {pole_trojkata}.")
+
 
     else:
         print("NIE MA TAKIEGO KSZTALTU!")
@@ -21,9 +29,9 @@ if __name__ == "__main__":
 
 
     Oblicz_pole_figur(nazwa_ksztaltu)
-	
-	
+
+
 	
 #Projekt Stworzyli:
 # Kinga Rolczak
-# 
+# Jakub Guguł
